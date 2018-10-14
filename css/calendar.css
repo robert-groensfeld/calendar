@@ -1,0 +1,108 @@
+.calendar {
+  padding-top: 10px;
+  border: 1px solid gray;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: #F8F8FF;
+  font-family: Arial;
+}
+
+.month-switch {
+  border-bottom: 0px solid white;
+  border-left: 0px;
+  border-right: 0px solid white;
+}
+
+.interactive {
+  cursor: pointer;
+}
+
+.office_hours_admin {
+  text-decoration: overline;
+}
+
+.month-display {
+  font-size: 26px;
+  border-bottom: 0px solid white;
+  border-left: 0px;
+  border-right: 0px solid white;
+}
+
+.date {
+  font-size: 26px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.date-off-month {
+    color: gray;
+}
+
+.date-today {
+  color: #aa0000;
+}
+
+.date-selected {
+  background-color: #6666ff;
+  color: white;
+}
+
+.date-selectable {
+  background-color: #ddddff;
+}
+
+.today {
+  background-color: gray;
+}
+
+.day {
+  border-top: 0px solid white;
+  border-left: 0px solid white;
+  border-right: 0px solid white;
+  padding-top: 10px;
+  font-size: 10px;
+  font-weight: normal;
+}
+
+.time {
+  width: 4em;
+  text-align: center;
+}
+
+.week {
+  width: 3em;
+  text-align: center;
+}
+
+.slot-table {
+  /*border: 1px solid black;*/
+  border-collapse: collapse;
+}
+
+.slot-row {
+  border-bottom: 1px solid black;
+}
+
+.slot {
+  text-align: left;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  width: 2em;
+  height: 2em;
+}
+
+.occupied-slot {
+  background-color: #ff4444;
+}
+
+.blocked-slot {
+  background-color: #dddddd;
+}
+
+.selected-slot {
+  background-color: #ffaaaa;
+}
+
+.free-slot {
+  background-color: #44ff44;
+}
